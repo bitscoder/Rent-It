@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="in.autodice.rentit.productinfo"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_gravity="center_horizontal">
+        <TextView android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Product Details"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="#ffffff"
+            android:textSize="40dp"/>
+
+
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:id="@+id/imageView"
+
+            android:onClick="takephotofromgallary"
+            android:outlineSpotShadowColor="@color/colorwhite"
+            android:outlineAmbientShadowColor="@color/colorwhite"
+            android:scaleType="centerCrop"
+            android:background="@drawable/round_outline"
+            />
+        <Button
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonChoose"
+            android:layout_gravity="center_horizontal"
+            android:text="Take from camera"
+            android:onClick="takephoto"
+            android:textColor="@color/colorwhite"
+            android:background="@drawable/buttoncurvy"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/productname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter Product Name"
+            android:textColor="#ffffff"
+            android:paddingTop="20dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/input_product_name"
+            android:textColor="@color/colorwhite"
+            android:outlineSpotShadowColor="@color/colorwhite"
+            android:backgroundTint="#ffffff"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Gender"
+            android:textColor="#ffffff"
+            android:paddingTop="20dp"/>
+        <RadioGroup
+            android:id="@+id/gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:orientation="horizontal"
+            >
+            <RadioButton
+                android:id="@+id/male"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Male"
+
+                android:textColor="@color/colorwhite"
+                android:buttonTint="@color/colorwhite"
+
+                />
+            <RadioButton
+                android:id="@+id/female"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Female"
+                android:checked="true"
+                android:textColor="@color/colorwhite"
+                android:textColorHint="@color/colorwhite"
+                android:buttonTint="@color/colorwhite"
+                />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Category"
+            android:textColor="#ffffff"
+            android:paddingTop="20dp"/>
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorwhite"></Spinner>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Size"
+            android:textColor="#ffffff"
+            android:paddingTop="20dp"/>
+
+        <Spinner
+            android:id="@+id/spinner3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorwhite"
+            android:outlineAmbientShadowColor="@color/colorwhite"
+            android:outlineSpotShadowColor="@color/colorwhite"
+             ></Spinner>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Expalain Product"
+            android:textColor="#ffffff"
+            android:paddingTop="20dp"/>
+
+        <EditText
+            android:id="@+id/descriptionEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top"
+            android:inputType="textCapSentences|textNoSuggestions|textMultiLine"
+            android:maxLines="6"
+            android:backgroundTint="@color/colorwhite"
+            android:textColor="#ffffff"
+            android:textColorHint="@color/colorwhite"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rate"
+            android:textColor="#ffffff"
+            android:paddingTop="20dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:id="@+id/rate"
+                android:backgroundTint="@color/colorwhite"
+                android:textColor="@color/colorwhite"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="per day"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+
+        <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/buttoncurvy"
+    android:text="@string/submit"
+    android:onClick="submit"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

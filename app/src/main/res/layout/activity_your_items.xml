@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="in.autodice.rentit.YourItems"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/newlyweds"
+        android:layout_gravity="center_horizontal"/>
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/orderbutton"
+        android:text="Products Bought"
+        android:textColor="@color/colorwhite"
+        android:layout_marginTop="300dp"
+        android:onClick="buying"
+        android:layout_gravity="center_horizontal"
+        />
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/orderbutton"
+        android:text="Products Sold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/colorwhite"
+        android:onClick="productssold"
+        />
+
+</LinearLayout>

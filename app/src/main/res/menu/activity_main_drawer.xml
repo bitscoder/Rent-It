@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/go_home"
+            android:icon="@drawable/home"
+            android:title="@string/Home"
+            android:textColor="@color/colorPrimary"/>
+        <item
+            android:id="@+id/update__profile"
+            android:icon="@drawable/dprofile"
+            android:title="@string/update_profile"
+            android:textColor="@color/colorPrimary"/>
+        <item
+            android:id="@+id/your__items"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/your_items"
+            android:textColor="@color/colorPrimary"/>
+
+        <item
+            android:id="@+id/faqs"
+            android:icon="@drawable/info"
+            android:title="@string/faqs"
+            android:textColor="@color/colorPrimary"/>
+        <item
+            android:id="@+id/terms_of_use"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/termsofuse"
+            android:textColor="@color/colorPrimary"/>
+        <item
+            android:id="@+id/contact__us"
+            android:icon="@drawable/contactus"
+            android:title="@string/contact_us"
+
+            android:textColor="@color/colorPrimary"/>
+        <item
+            android:id="@+id/log__out"
+            android:title="@string/log_out"
+            android:icon="@drawable/logout"
+            android:textColor="@color/colorPrimary"/>
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/menu_share"
+                android:textColor="@color/colorPrimary"/>
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/menu_send"
+                android:textColor="@color/colorPrimary"/>
+        </menu>
+    </item>
+
+</menu>

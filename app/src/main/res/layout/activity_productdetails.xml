@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="in.autodice.rentit.Productdetails"
+    android:padding="10dp"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="Suit"
+            android:textColor="@color/colorfont"
+            android:id="@+id/name_product"/>
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/bsuit"
+            android:id="@+id/image_product"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="10dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="₹"
+                android:textSize="10dp"
+                android:paddingBottom="20dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:id="@+id/rate_product"
+                android:text="1000"
+                android:textSize="30dp"
+                android:paddingRight="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="per day"
+                android:textSize="20dp"
+                />
+        </LinearLayout>
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp">
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:paddingBottom="10dp">
+
+                <TextView
+                    android:text="Preferred scope of use"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:textColor="@color/colorfont"
+                    />
+
+                <TextView
+                    android:text="Male"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:id="@+id/gender_product"
+                    android:paddingLeft="20dp"
+
+                    />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:paddingBottom="10dp">
+                <TextView
+                    android:text="Category"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:textColor="@color/colorfont"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:id="@+id/category_product"
+                    android:paddingLeft="20dp"
+
+                    />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:text="Size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:textColor="@color/colorfont"
+                    />
+
+                <TextView
+                    android:text="L"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:id="@+id/size_product"
+                    android:paddingLeft="20dp"
+
+                    />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:text="Locality"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:textColor="@color/colorfont"
+                    />
+
+                <TextView
+                    android:text="Chembur East"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:id="@+id/locality_product"
+                    android:paddingLeft="20dp"
+
+                    />
+            </TableRow>
+        </TableLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textSize="23dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/des"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            >
+            <Button
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:onClick="contactuser"
+                android:background="@drawable/orderbutton"
+                android:text="contact user"
+                android:textColor="@color/colorwhite"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:layout_marginLeft="20dp"
+                android:id="@+id/con"/>
+            <Button
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/orderbutton"
+                android:text="Buy Now"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/colorwhite"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:id="@+id/b1"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

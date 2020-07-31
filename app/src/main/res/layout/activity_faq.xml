@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:padding="20dp"
+    >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:orientation="vertical"
+            android:paddingBottom="50dp">
+            <TextView android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="@string/faqs"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/colorwhite"
+                android:textSize="40dp"/>
+            <TextView android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How does RentIt work??"
+                android:textColor="@color/colorwhite"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="25dp"/>
+            <TextView android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorwhite"
+                android:text="RentIt is a fashion rental service. We help you dazzle at all the occasions in your life whether it's a date night, club night, brunch, best friend's or even your own wedding.
+
+We offer items across ethnic and western wear for both men and women. You can book any outfit from two days to upto 4 months in advance with a rental period of 4, 6 or 8 days to choose from. We provide free custom fitting for women's ethnic wear dresses and selected menswear categories."
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="10dp" />
+
+            <TextView android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorwhite"
+                android:text="What categories do you offer custom fitting for in your Men's Wear section?"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="25dp"/>
+            <TextView android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorwhite"
+                android:text="In our Menswear collection - Suits, Tuxedos, Sherwanis, Indo-western and Jodhpuri Suits are custom fitted. To know if any particular outfit is custom fitted or not, please look for ‘Custom Fitting Available’ badge on the details page. You will also be able to know what exactly will be custom fitted here."
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="10dp" />
+            <TextView android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorwhite"
+                android:text="Should my Measurement, Pick-up and delivery address be the same?"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="25dp"/>
+            <TextView android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorwhite"
+                android:text="We are very flexible as per our customer’s requirements. We do not mind different addresses for measurements, delivery and pick-ups. However, while placing order you will have to select one address. After the order is placed, you can then mail us at care@rentit.com or call us at 0124 2882210 with the order ID, phone number and your address change requirements."
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="10dp" />
+            <TextView android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:text="How are measurements taken for custom fitting?"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="25dp"/>
+            <TextView android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorwhite"
+                android:text="We know how important the perfect fit is for those special occasions. We'll visit you to take your measurements. While placing your order, pick a time and date that's convenient for us to visit you for measurements. Don't know yet what date would work to get measured or long time to go for your event? No problem, request a callback for us to ask you for a convenient slot for measurements. Ordering again on Flyrobe or don't have time for us to visit you- no problem! send us your measurements online. No matter which option you choose, your outfit will be fit exactly to your size"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="10dp" />
+
+            <TextView android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How many days can I keep the outfit with me??"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/colorwhite"
+                android:layout_marginBottom="10dp"
+                android:textSize="25dp"/>
+            <TextView android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorwhite"
+                android:text="You can keep the outfits you order for 4, 6 or 8 days. Please choose the duration while placing the order. The day you receive the order is your first of owning the outfit."
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="10dp" />
+
+
+        </LinearLayout>
+
+
+</ScrollView>

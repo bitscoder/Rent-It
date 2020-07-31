@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/bottnav_myitemsonrent"
+        android:title=" MY ITEMS ON RENT"
+        android:textColor="@color/colorPrimary"/>
+
+    <item
+        android:id="@+id/bottnav_itemsrentedbyme"
+        android:title="ITEMS RENTED BY ME"
+        android:textColor="@color/colorPrimary"/>
+</menu>

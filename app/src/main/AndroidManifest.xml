@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rentit">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name="in.autodice.rentit.XYZ"></activity>
+        <activity android:name="in.autodice.rentit.QWE" />
+        <activity android:name="in.autodice.rentit.StatusItem" />
+        <activity android:name="in.autodice.rentit.YourItems" />
+        <activity android:name="in.autodice.rentit.filter" />
+        <activity android:name="in.autodice.rentit.VerifyPhoneActivity" />
+        <activity android:name="in.autodice.rentit.verifyuser" />
+        <activity android:name="in.autodice.rentit.sharea" />
+        <activity android:name="in.autodice.rentit.Update" />
+        <activity android:name="in.autodice.rentit.productsonrentactivity" />
+        <activity android:name="in.autodice.rentit.termsofuse" />
+        <activity android:name="in.autodice.rentit.contactus" />
+        <activity android:name="in.autodice.rentit.faq" />
+        <activity android:name=".ItemsOnRent" />
+        <activity android:name="in.autodice.rentit.Productdetails" />
+        <activity android:name="in.autodice.rentit.productinfo" />
+        <activity
+            android:name="in.autodice.rentit.Home"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:name="in.autodice.rentit.SignUp" />
+        <activity android:name="in.autodice.rentit.RentItLogIn" />
+        <activity android:name="in.autodice.rentit.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
